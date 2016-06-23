@@ -1,0 +1,742 @@
+Entered the survey file name. Filename is survey-1.csv
+Filename base name is survey-1
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1.csv
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1-responses.csv
+Entered the survey file name. Filename is survey-1.csv
+Filename base name is survey-1
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1.csv
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1-responses.csv
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[theme, type, text]]
+Rating Question Text Head index2
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[The Work, ratingquestion, I like the kind of work I do.]]
+Rating Question I like the kind of work I do.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[The Work, ratingquestion, In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.]]
+Rating Question In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[The Work, ratingquestion, We are working at the right pace to meet our goals.]]
+Rating Question We are working at the right pace to meet our goals.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[The Place, ratingquestion, I feel empowered to get the work done for which I am responsible.]]
+Rating Question I feel empowered to get the work done for which I am responsible.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[The Place, ratingquestion, I am appropriately involved in decisions that affect my work.]]
+Rating Question I am appropriately involved in decisions that affect my work.
+Survey Response Rating questions list [I like the kind of work I do., In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective., We are working at the right pace to meet our goals., I feel empowered to get the work done for which I am responsible., I am appropriately involved in decisions that affect my work.]
+Survey Response Rating questions list [CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]]
+Total Employees 6
+Total Participants 5
+Percentage Participants 83.33333
+Entered the survey file name. Filename is survey-1.csv
+Filename base name is survey-1
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1.csv
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[theme, type, text]]
+Rating Question Text Head index2
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[The Work, ratingquestion, I like the kind of work I do.]]
+Rating Question I like the kind of work I do.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[The Work, ratingquestion, In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.]]
+Rating Question In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[The Work, ratingquestion, We are working at the right pace to meet our goals.]]
+Rating Question We are working at the right pace to meet our goals.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[The Place, ratingquestion, I feel empowered to get the work done for which I am responsible.]]
+Rating Question I feel empowered to get the work done for which I am responsible.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[The Place, ratingquestion, I am appropriately involved in decisions that affect my work.]]
+Rating Question I am appropriately involved in decisions that affect my work.
+Survey Response Rating questions list [I like the kind of work I do., In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective., We are working at the right pace to meet our goals., I feel empowered to get the work done for which I am responsible., I am appropriately involved in decisions that affect my work.]
+Inside SurveyResponse.parseSurveySubmittedResponse method
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Survey Response records itememployee1@abc.xyz
+Survey Response records item1
+Survey Response records item2014-07-28T20:35:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Survey Response records item
+Survey Response records item2
+Survey Response records item2014-07-29T07:05:41+00:00
+Is submitted responsetrue
+Survey Response records item4
+Survey Response records item5
+Survey Response records item5
+Survey Response records item3
+Survey Response records item3
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Survey Response records item
+Survey Response records item3
+Survey Response records item2014-07-29T17:35:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Survey Response records itememployee4@abc.xyz
+Survey Response records item4
+Survey Response records item2014-07-30T04:05:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Survey Response records item
+Survey Response records item5
+Survey Response records item2014-07-31T11:35:41+00:00
+Is submitted responsetrue
+Survey Response records item4
+Survey Response records item5
+Survey Response records item5
+Survey Response records item2
+Survey Response records item3
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[employee5@abc.xyz, 6, , , , , , ]]
+Survey Response records itememployee5@abc.xyz
+Survey Response records item6
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+submitted responses list[CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]]
+Survey Response Rating questions list [CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]]
+Inside SurveyResponse.totalEmployees method
+Total Employees6
+Total Employees 6
+Inside SurveyResponse.totalParticipants method
+Total Participants5
+Total Participants 5
+Inside SurveyResponse.percentParticipants method
+Percentage of Participants83.33333
+Percentage Participants 83.33333
+Inside SurveyResponse.printAvgRating method
+Rating Questions I like the kind of work I do.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions4.6
+Rating Questions In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions5.0
+Rating Questions We are working at the right pace to meet our goals.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions5.0
+Rating Questions I feel empowered to get the work done for which I am responsible.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions3.6
+Rating Questions I am appropriately involved in decisions that affect my work.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions3.6
+Entered the survey file name. Filename is survey-1.csv
+Filename base name is survey-1
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1.csv
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[theme, type, text]]
+Rating Question Text Head index2
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[The Work, ratingquestion, I like the kind of work I do.]]
+Rating Question I like the kind of work I do.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[The Work, ratingquestion, In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.]]
+Rating Question In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[The Work, ratingquestion, We are working at the right pace to meet our goals.]]
+Rating Question We are working at the right pace to meet our goals.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[The Place, ratingquestion, I feel empowered to get the work done for which I am responsible.]]
+Rating Question I feel empowered to get the work done for which I am responsible.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[The Place, ratingquestion, I am appropriately involved in decisions that affect my work.]]
+Rating Question I am appropriately involved in decisions that affect my work.
+Survey Response Rating questions list [I like the kind of work I do., In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective., We are working at the right pace to meet our goals., I feel empowered to get the work done for which I am responsible., I am appropriately involved in decisions that affect my work.]
+Inside SurveyResponse.parseSurveySubmittedResponse method
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Survey Response records itememployee1@abc.xyz
+Survey Response records item1
+Survey Response records item2014-07-28T20:35:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Survey Response records item
+Survey Response records item2
+Survey Response records item2014-07-29T07:05:41+00:00
+Is submitted responsetrue
+Survey Response records item4
+Survey Response records item5
+Survey Response records item5
+Survey Response records item3
+Survey Response records item3
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Survey Response records item
+Survey Response records item3
+Survey Response records item2014-07-29T17:35:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Survey Response records itememployee4@abc.xyz
+Survey Response records item4
+Survey Response records item2014-07-30T04:05:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Survey Response records item
+Survey Response records item5
+Survey Response records item2014-07-31T11:35:41+00:00
+Is submitted responsetrue
+Survey Response records item4
+Survey Response records item5
+Survey Response records item5
+Survey Response records item2
+Survey Response records item3
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[employee5@abc.xyz, 6, , , , , , ]]
+Survey Response records itememployee5@abc.xyz
+Survey Response records item6
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+submitted responses list[CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]]
+Survey Response Rating questions list [CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]]
+Inside SurveyResponse.totalEmployees method
+Total Employees6
+Total Employees 6
+Inside SurveyResponse.totalParticipants method
+Total Participants5
+Total Participants 5
+Inside SurveyResponse.percentParticipants method
+Percentage of Participants83.33333
+Percentage Participants 83.33333
+Inside SurveyResponse.printAvgRating method
+Rating Questions I like the kind of work I do.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions4.6
+Rating Questions In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions5.0
+Rating Questions We are working at the right pace to meet our goals.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions5.0
+Rating Questions I feel empowered to get the work done for which I am responsible.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions3.6
+Rating Questions I am appropriately involved in decisions that affect my work.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions3.6
+Entered the survey file name. Filename is abgh
+Filename base name is abgh
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/abgh
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/abgh-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Error reading file
+java.io.FileNotFoundException: /home/shibin/cimi/WSOP/csvparser/example-data/abgh (No such file or directory)
+Entered the survey file name. Filename is sdfg.gh
+Filename base name is sdfg
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/sdfg.gh
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/sdfg-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Invalid file name 
+java.io.FileNotFoundException: /home/shibin/cimi/WSOP/csvparser/example-data/sdfg.gh (No such file or directory)
+Entered the survey file name. Filename is survey-1
+Filename base name is survey-1
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Invalid file name 
+java.io.FileNotFoundException: /home/shibin/cimi/WSOP/csvparser/example-data/survey-1 (No such file or directory)
+Entered the survey file name. Filename is survey-1.csv
+Filename base name is survey-1
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1.csv
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Invalid file name 
+java.io.FileNotFoundException: /home/shibin/cimi/WSOP/csvparser/example-data/survey-1.csv (Permission denied)
+Entered the survey file name. Filename is survey-2.csv
+Filename base name is survey-2
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-2.csv
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-2-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[theme, type, text]]
+Rating Question Text Head index2
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[The Work, ratingquestion, I like the kind of work I do.]]
+Rating Question I like the kind of work I do.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[The Work, ratingquestion, In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.]]
+Rating Question In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[The Work, ratingquestion, We are working at the right pace to meet our goals.]]
+Rating Question We are working at the right pace to meet our goals.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[The Work, ratingquestion, I feel empowered to get the work done for which I am responsible.]]
+Rating Question I feel empowered to get the work done for which I am responsible.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[The Work, singleselect, Manager]]
+Survey Response Rating questions list [I like the kind of work I do., In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective., We are working at the right pace to meet our goals., I feel empowered to get the work done for which I am responsible.]
+Inside SurveyResponse.parseSurveySubmittedResponse method
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, Sally]]
+Survey Response records item
+Survey Response records item1
+Survey Response records item2014-07-28T20:35:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records itemSally
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, Jane]]
+Survey Response records item
+Survey Response records item2
+Survey Response records item2014-07-29T07:05:41+00:00
+Is submitted responsetrue
+Survey Response records item4
+Survey Response records item5
+Survey Response records item5
+Survey Response records item3
+Survey Response records itemJane
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, John]]
+Survey Response records item
+Survey Response records item3
+Survey Response records item2014-07-29T17:35:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records itemJohn
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, Bob]]
+Survey Response records item
+Survey Response records item4
+Survey Response records item2014-07-30T04:05:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records itemBob
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, Mary]]
+Survey Response records item
+Survey Response records item5
+Survey Response records item2014-07-31T11:35:41+00:00
+Is submitted responsetrue
+Survey Response records item4
+Survey Response records item5
+Survey Response records item5
+Survey Response records item2
+Survey Response records itemMary
+submitted responses list[CSVRecord [comment=null, mapping=null, recordNumber=1, values=[, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, Sally]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, Jane]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, John]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, Bob]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, Mary]]]
+Survey Response Rating questions list [CSVRecord [comment=null, mapping=null, recordNumber=1, values=[, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, Sally]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, Jane]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, John]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, Bob]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, Mary]]]
+Inside SurveyResponse.totalEmployees method
+Total Employees5
+Total Employees 5
+Inside SurveyResponse.totalParticipants method
+Total Participants5
+Total Participants 5
+Inside SurveyResponse.percentParticipants method
+Percentage of Participants100.0
+Percentage Participants 100.0
+Inside SurveyResponse.printAvgRating method
+Rating Questions I like the kind of work I do.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, Sally]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, Jane]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, John]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, Bob]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, Mary]]
+Avg Rating of Questions4.6
+Rating Questions In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, Sally]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, Jane]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, John]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, Bob]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, Mary]]
+Avg Rating of Questions5.0
+Rating Questions We are working at the right pace to meet our goals.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, Sally]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, Jane]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, John]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, Bob]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, Mary]]
+Avg Rating of Questions5.0
+Rating Questions I feel empowered to get the work done for which I am responsible.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, Sally]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, Jane]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, John]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, Bob]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, Mary]]
+Avg Rating of Questions3.6
+Entered the survey file name. Filename is survey-1.csv
+Filename base name is survey-1
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1.csv
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Invalid file name 
+java.io.FileNotFoundException: /home/shibin/cimi/WSOP/csvparser/example-data/survey-1.csv (Permission denied)
+Entered the survey file name. Filename is survey-3.csv
+Filename base name is survey-3
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-3.csv
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-3-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[type, theme, text]]
+Rating Question Text Head index2
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[ratingquestion, The Work, I like the kind of work I do.]]
+Rating Question I like the kind of work I do.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[ratingquestion, The Work, I have the resource I need to be effective.]]
+Rating Question I have the resource I need to be effective.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[singleselect, Demographics, City]]
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[ratingquestion, The Work, I feel empowered to get the work done for which I am responsible.]]
+Rating Question I feel empowered to get the work done for which I am responsible.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[singleselect, Demographics, Manager]]
+Survey Response Rating questions list [I like the kind of work I do., I have the resource I need to be effective., I feel empowered to get the work done for which I am responsible.]
+Inside SurveyResponse.parseSurveySubmittedResponse method
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, , , 5, 5, Perth, 4, Sally]]
+Survey Response records itememployee1@abc.xyz
+Survey Response records item
+Survey Response records item
+Survey Response records item5
+Survey Response records item5
+Survey Response records itemPerth
+Survey Response records item4
+Survey Response records itemSally
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[employee2@abc.xyz, , , , 5, Sydney, 3, Jane]]
+Survey Response records itememployee2@abc.xyz
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item5
+Survey Response records itemSydney
+Survey Response records item3
+Survey Response records itemJane
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[employee2@abc.xyz, , , , 5, , 5, John]]
+Survey Response records itememployee2@abc.xyz
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item5
+Survey Response records item
+Survey Response records item5
+Survey Response records itemJohn
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee2@abc.xyz, , , 5, 5, Melbourne, 4, Bob]]
+Survey Response records itememployee2@abc.xyz
+Survey Response records item
+Survey Response records item
+Survey Response records item5
+Survey Response records item5
+Survey Response records itemMelbourne
+Survey Response records item4
+Survey Response records itemBob
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[employee2@abc.xyz, , , 4, 5, Darwin, 2, Mary]]
+Survey Response records itememployee2@abc.xyz
+Survey Response records item
+Survey Response records item
+Survey Response records item4
+Survey Response records item5
+Survey Response records itemDarwin
+Survey Response records item2
+Survey Response records itemMary
+submitted responses list[]
+Survey Response Rating questions list []
+Inside SurveyResponse.totalEmployees method
+Total Employees5
+Total Employees 5
+Inside SurveyResponse.totalParticipants method
+Total Participants0
+Total Participants 0
+Inside SurveyResponse.percentParticipants method
+Percentage of Participants0.0
+Percentage Participants 0.0
+Inside SurveyResponse.printAvgRating method
+Entered the survey file name. Filename is survey-1.csv
+Filename base name is survey-1
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1.csv
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[theme, type, text]]
+Rating Question Text Head index2
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[The Work, ratingquestion, I like the kind of work I do.]]
+Rating Question I like the kind of work I do.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[The Work, ratingquestion, In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.]]
+Rating Question In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[The Work, ratingquestion, We are working at the right pace to meet our goals.]]
+Rating Question We are working at the right pace to meet our goals.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[The Place, ratingquestion, I feel empowered to get the work done for which I am responsible.]]
+Rating Question I feel empowered to get the work done for which I am responsible.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[The Place, ratingquestion, I am appropriately involved in decisions that affect my work.]]
+Rating Question I am appropriately involved in decisions that affect my work.
+Survey Response Rating questions list [I like the kind of work I do., In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective., We are working at the right pace to meet our goals., I feel empowered to get the work done for which I am responsible., I am appropriately involved in decisions that affect my work.]
+Inside SurveyResponse.parseSurveySubmittedResponse method
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Survey Response records itememployee1@abc.xyz
+Survey Response records item1
+Survey Response records item2014-07-28T20:35:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Survey Response records item
+Survey Response records item2
+Survey Response records item2014-07-29T07:05:41+00:00
+Is submitted responsetrue
+Survey Response records item4
+Survey Response records item5
+Survey Response records item5
+Survey Response records item3
+Survey Response records item3
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Survey Response records item
+Survey Response records item3
+Survey Response records item2014-07-29T17:35:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Survey Response records itememployee4@abc.xyz
+Survey Response records item4
+Survey Response records item2014-07-30T04:05:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Survey Response records item
+Survey Response records item5
+Survey Response records item2014-07-31T11:35:41+00:00
+Is submitted responsetrue
+Survey Response records item4
+Survey Response records item5
+Survey Response records item5
+Survey Response records item2
+Survey Response records item3
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[employee5@abc.xyz, 6, , , , , , ]]
+Survey Response records itememployee5@abc.xyz
+Survey Response records item6
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+submitted responses list[CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]]
+Survey Response Rating questions list [CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]]
+Inside SurveyResponse.totalEmployees method
+Total Employees6
+Total Employees 6
+Inside SurveyResponse.totalParticipants method
+Total Participants5
+Total Participants 5
+Inside SurveyResponse.percentParticipants method
+Percentage of Participants83.33333
+Percentage Participants 83.33333
+Inside SurveyResponse.printAvgRating method
+Rating Questions I like the kind of work I do.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions4.6
+Rating Questions In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions5.0
+Rating Questions We are working at the right pace to meet our goals.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions5.0
+Rating Questions I feel empowered to get the work done for which I am responsible.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions3.6
+Rating Questions I am appropriately involved in decisions that affect my work.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions3.6
+Entered the survey file name. Filename is survey-1.csv
+Filename base name is survey-1
+Survey Question file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1.csv
+Survey Response file with path /home/shibin/cimi/WSOP/csvparser/example-data/survey-1-responses.csv
+Inside SurveyQuestions.parseSurveyRatQues method
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[theme, type, text]]
+Rating Question Text Head index2
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[The Work, ratingquestion, I like the kind of work I do.]]
+Rating Question I like the kind of work I do.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[The Work, ratingquestion, In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.]]
+Rating Question In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[The Work, ratingquestion, We are working at the right pace to meet our goals.]]
+Rating Question We are working at the right pace to meet our goals.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[The Place, ratingquestion, I feel empowered to get the work done for which I am responsible.]]
+Rating Question I feel empowered to get the work done for which I am responsible.
+Survey Questions parsed records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[The Place, ratingquestion, I am appropriately involved in decisions that affect my work.]]
+Rating Question I am appropriately involved in decisions that affect my work.
+Survey Response Rating questions list [I like the kind of work I do., In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective., We are working at the right pace to meet our goals., I feel empowered to get the work done for which I am responsible., I am appropriately involved in decisions that affect my work.]
+Inside SurveyResponse.parseSurveySubmittedResponse method
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Survey Response records itememployee1@abc.xyz
+Survey Response records item1
+Survey Response records item2014-07-28T20:35:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Survey Response records item
+Survey Response records item2
+Survey Response records item2014-07-29T07:05:41+00:00
+Is submitted responsetrue
+Survey Response records item4
+Survey Response records item5
+Survey Response records item5
+Survey Response records item3
+Survey Response records item3
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Survey Response records item
+Survey Response records item3
+Survey Response records item2014-07-29T17:35:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Survey Response records itememployee4@abc.xyz
+Survey Response records item4
+Survey Response records item2014-07-30T04:05:41+00:00
+Is submitted responsetrue
+Survey Response records item5
+Survey Response records item5
+Survey Response records item5
+Survey Response records item4
+Survey Response records item4
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Survey Response records item
+Survey Response records item5
+Survey Response records item2014-07-31T11:35:41+00:00
+Is submitted responsetrue
+Survey Response records item4
+Survey Response records item5
+Survey Response records item5
+Survey Response records item2
+Survey Response records item3
+Survey Response records CSVRecord [comment=null, mapping=null, recordNumber=6, values=[employee5@abc.xyz, 6, , , , , , ]]
+Survey Response records itememployee5@abc.xyz
+Survey Response records item6
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+Survey Response records item
+submitted responses list[CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]]
+Survey Response Rating questions list [CSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]], CSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]], CSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]], CSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]]
+Inside SurveyResponse.totalEmployees method
+Total Employees6
+Total Employees 6
+Inside SurveyResponse.totalParticipants method
+Total Participants5
+Total Participants 5
+Inside SurveyResponse.percentParticipants method
+Percentage of Participants83.33333
+Percentage Participants 83.33333
+Inside SurveyResponse.printAvgRating method
+Rating Questions I like the kind of work I do.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions4.6
+Rating Questions In general, I have the resources (e.g., business tools, information, facilities, IT or functional support) I need to be effective.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions5.0
+Rating Questions We are working at the right pace to meet our goals.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions5.0
+Rating Questions I feel empowered to get the work done for which I am responsible.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions3.6
+Rating Questions I am appropriately involved in decisions that affect my work.
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=1, values=[employee1@abc.xyz, 1, 2014-07-28T20:35:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=2, values=[, 2, 2014-07-29T07:05:41+00:00, 4, 5, 5, 3, 3]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=3, values=[, 3, 2014-07-29T17:35:41+00:00, 5, 5, 5, 5, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=4, values=[employee4@abc.xyz, 4, 2014-07-30T04:05:41+00:00, 5, 5, 5, 4, 4]]
+Rating Questions rateCSVRecord [comment=null, mapping=null, recordNumber=5, values=[, 5, 2014-07-31T11:35:41+00:00, 4, 5, 5, 2, 3]]
+Avg Rating of Questions3.6
